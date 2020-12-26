@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap");
+body {
+  height: 100% !important;
+  width: 100% !important;
+  background-color: #f4f4f4;
+  font-family: 'Andika New Basic', sans-serif;
+  position: initial !important;
+}
+
+.myNav {
+  font-weight: 550;
+  top: 0 !important;
+  position: sticky !important;
+  z-index: 100 !important;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.myNav .navContainer {
+  padding: 3px !important;
+  margin-left: 10% !important;
+}
+
+.myNav .navContainer #navImage {
+  margin: 0 5px !important;
+  padding: 0 !important;
+  height: 40px !important;
+  width: 40px !important;
+}
+
+.myNav .navContainer .navbar-brand {
+  font-size: 32px !important;
+  margin: 4px 8px !important;
+  padding: 8px !important;
+}
+
+.myNav .navContainer .navbar-brand:hover {
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  color: #97f3cd !important;
+}
+
+.inputs {
+  margin-top: 5vh !important;
+}
+
+.card {
+  width: 100% !important;
+}
+
+#card-body {
+  display: flex !important;
+  flex-direction: row !important;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+#wordInput {
+  font-size: 18px !important;
+  font-weight: 550 !important;
+  border-radius: 5px !important;
+}
+
+#searchResults {
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  border-radius: 5px !important;
+  box-shadow: 5px 7px 7px rgba(255, 254, 254, 0.2), -3px -2px 5px rgba(59, 58, 58, 0.144), 0 7px 7px rgba(0, 0, 0, 0.1);
+}
+
+#searchedWord {
+  font-size: 28px !important;
+  font-weight: 600 !important;
+}
+
+#heading {
+  font-size: 24px !important;
+}
+
+.badge {
+  border-radius: 5px !important;
+}
+
+.footer {
+  width: 100% !important;
+  text-align: center !important;
+  position: absolute !important;
+  bottom: 0 !important;
+}
+/*# sourceMappingURL=style.css.map */

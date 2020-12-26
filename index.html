@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Dictionary</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css" integrity="sha384-5QFXyVb+lrCzdN228VS3HmzpiE7ZVwLQtkt+0d9W43LQMzz4HBnnqvVxKg6O+04d" crossorigin="anonymous">
+    <link rel="stylesheet" href="./dist/css/style.css">
+    <link rel="icon" href="./dist/images/dictionary.png">
+
+    <script src="./dist/js/index.js" defer></script>
+
+</head>
+<body>
+
+    <!-- Navbar Area Code -->
+    <div class="row bg-dark text-light myNav">
+        <div class="container navContainer">
+            <div class="navbar-brand"><img src="./dist/images/dictionary.png" id="navImage" alt="">Dictionary Using JS</div>
+        </div>
+    </div>
+
+
+    <!-- Input Area Code -->
+    <div class="row inputs">
+        <div class="container">
+            <div class="form-group d-flex flex-row">
+                <input class="form-control text-warning" type="text" name="wordInput" id="wordInput" placeholder="Enter Any Word Here*" />    
+                <button id="searchBTN" class="btn btn-success rounded ml-2">Search</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Output Area Code -->
+    <div class="row" id="outputArea">
+
+        <div class="container-fluid m-4">
+            
+            <div class="card" id="content">
+                <div id="heading" class="card-header text-center bg-primary text-light">
+                    <span id="searchedWord"></span>
+                </div>
+                <ul class="list-group list-group-flush" id="output">
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    <div class="footer">
+        Copyright &copy; 2020 <a target="_blank" href="https://www.linkedin.com/in/sajjat-hossain-6477731ab/">@SajjatHossain</a>
+    </div>
+</body>
+</html>
