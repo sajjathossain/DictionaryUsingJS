@@ -2,7 +2,7 @@
 body {
   height: 100% !important;
   width: 100% !important;
-  background-color: #f4f4f4;
+  background-color: #f4f4f4 !important;
   font-family: 'Andika New Basic', sans-serif;
   position: initial !important;
 }
@@ -36,7 +36,7 @@ body {
 .myNav .navContainer .navbar-brand:hover {
   border-radius: 5px !important;
   cursor: pointer !important;
-  color: #97f3cd !important;
+  color: #f3b997 !important;
 }
 
 .inputs {
@@ -44,6 +44,7 @@ body {
 }
 
 .card {
+  background-color: #f4f4f4 !important;
   width: 100% !important;
 }
 
@@ -51,6 +52,7 @@ body {
   display: flex !important;
   flex-direction: row !important;
   font-size: 18px;
+  text-overflow: wrap !important;
   justify-content: space-between;
 }
 
@@ -76,7 +78,12 @@ body {
 }
 
 #heading {
+  background-color: #eeeeee !important;
   font-size: 24px !important;
+}
+
+.thead-light {
+  background-color: #f4f4f4 !important;
 }
 
 .badge {

@@ -26,18 +26,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     output += `
 
-                        <li class="list-group-item mb-2">
-                            <div id="card-body">
-                                <div class="card-text"><strong class="text-warning">Meaning: </strong>${i.definitions[0].definition}</div>
-                                <div>
-                                    <strong class="text-primary">POS: </strong>
-                                        <div class="badge badge-warning">    
-                                        ${i.partOfSpeech}
-                                        </div>
-                                </div>
-                            </div>
-                        </li>
-                        `;
+                        <tr>
+                            <th scope="row">${ (data[0].meanings.indexOf(i))+1 }</th>
+                            <td>${ i.definitions[0].definition }</td>
+                            <td>${ i.definitions[0].example }</td>
+                            <td>
+                                <span class="badge badge-primary p-2">    
+                                    ${ i.partOfSpeech }
+                                </span>
+                            </td>
+                        </tr>
+
+                       `;
                         
                     // };
                 });

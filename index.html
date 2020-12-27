@@ -36,14 +36,28 @@
     <!-- Output Area Code -->
     <div class="row" id="outputArea">
 
-        <div class="container-fluid m-4">
+        <div class="container m-3">
             
-            <div class="card" id="content">
-                <div id="heading" class="card-header text-center bg-primary text-light">
-                    <span id="searchedWord"></span>
+            <div class="card p-2" id="content">
+                <div id="heading" class="card-header text-center bg-light text-dark mb-2">
+                    <strong class="text-warning">Searched Word : </strong><span id="searchedWord"></span>                    
                 </div>
-                <ul class="list-group list-group-flush" id="output">
-                </ul>
+                <!-- <ul class="list-group list-group-flush" id="output">
+                </ul> -->
+
+                <table class="table">
+                    <thead class="thead-light">
+                        <tr>
+                        <th scope="col" class="text-warning">#</th>
+                        <th scope="col" class="text-warning">Meaning</th>
+                        <th scope="col" class="text-warning">Example</th>
+                        <th scope="col" class="text-warning">Part Of Speech</th>
+                        </tr>
+                    </thead>
+                    <tbody id="output">
+                       
+                    </tbody>
+                </table>
             </div>
 
         </div>
