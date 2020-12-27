@@ -21,8 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
             .then((res) => res.json())
             .then((data) => {
                 data[0].meanings.forEach((i) => {
-                    console.log(i)
-                    // for (let i = 0; i < meaning.length; i++) {
+                    // console.log(i)
 
                     output += `
 
@@ -39,8 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
                        `;
                         
-                    // };
                 });
+
 
                 wordInput.value = "";
                 outputArea.style.display = "";
